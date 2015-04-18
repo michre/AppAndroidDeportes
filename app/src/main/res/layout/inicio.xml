@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background">
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/accountTittleBackgroundColor"
+        android:gravity="center"
+        android:text="Inicio"
+        android:textColor="@color/accountTittleText"
+        android:textSize="25sp" />
+     
+    
+    <Button
+             android:layout_width="match_parent"
+            android:layout_height="50dp"
+        	android:layout_gravity="center"
+        	android:gravity="center"
+            android:text="Entrenamientos pendientes de calificar"
+            android:id="@+id/btnCreateNotify"
+            android:onClick="buttonClicked"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/buttonHome"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/buttonHomeColor"
+            android:layout_alignParentRight="true"/>
+
+
+      <View android:background="@color/accountTittleBackgroundColor" 
+       android:layout_width = "fill_parent"
+        android:layout_height="2dp"/>
+     
+     
+   <!--  <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/btnRegister"
+                android:layout_below="@+id/btnRegister"
+                android:layout_alignLeft="@+id/btnRegister">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ejemplo servicio notificaciones"
+                android:id="@+id/textView"
+                />
+
+
+    </ScrollView> -->
+
+   
+    
+       <LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	  	android:layout_gravity="bottom|center" 
+	    android:gravity="bottom|center"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout
+	        
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dip"
+	       android:layout_weight="1.26"
+	        android:orientation="vertical"  >
+	
+	      
+	
+	        
+	    </LinearLayout>	
+	   
+	</LinearLayout>
+    
+</LinearLayout>

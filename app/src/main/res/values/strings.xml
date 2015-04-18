@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App Deportes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+	<string name="boton_salir">Salir  </string>
+	<string name="boton_opciones">Opciones  </string>
+	<string name="boton_manual">Manual  </string>
+	<string name="AboutPopUp_name">Acerca de  </string>
+	<string name="menu_reiniciar">Reiniciar  </string>
+
+ 
+    <string name="cerrarSesion">Cerrar sesión</string>
+ 
+     <string name="salirTitle">Salir del juego</string>
+     <string name="salirMessage">¿Está seguro de que desea salir?</string>
+ 
+   <string name="modoRedDesactivado">Modo de red desactivado</string>
+ <string name="modoRedDesactivadoMessage">Active el modo de red en los ajustes de la aplicación</string>
+ 
+ <string name="cerrarSesionTitle">Cerrar sesión</string>
+ <string name="cerrarSesionMessage">¿Está seguro de que desea cerrar la sesión?</string> 
+
+ 				
+
+    
+ 
+ 
+ <string name="accountError">Error: El nombre de usuario ya existe en la base de datos.</string> 
+<string name="accountFirstTextViewText">Nueva cuenta</string> 
+ <string name="accountFirstEditTextHint">Nombre de usuario</string>
+ <string name="accountFirstLoginEditTextHint">Correo de usuario</string>
+ <string name="accountNameEditTextHint">Nombre</string>
+ <string name="accountLastNameEditTextHint">Apellidos</string>
+ <string name="accountPhoneEditTextHint">Teléfono</string>
+ <string name="accountMailEditTextHint">Correo electrónico</string>
+ <string name="accountSecondEditTextHint">Contraseña</string>
+ <string name="accountThirdEditTextHint">Confirme la contraseña</string>
+ <string name="accountAcceptButtonText">Aceptar</string> 	 
+ <string name="accountCancelButtonText">Cancelar</string> 
+ <string name="accountFirstToastMessage">Añadido nuevo usuario a la base de 
+datos</string> 
+
+  <string name="accountLoginButtonText">Entrar</string> 	 
+  <string name="accountLoginCancelButtonText">Volver</string> 
+   <string name="accountRegisterButtonText">Registro</string>
+   <string name="pickerSenderButtonText">Enviar</string>
+    <string name="accountLoginTextViewText">Login Usuario</string>
+    <string name="calificationTextViewText">Seleccione la calificación</string>
+    <string name="registerTextViewText">Registro</string>
+    <string name="loginTextViewText">Login</string>
+
+ 
+ <string name="accountSecondToastMessage">Falta información</string> 
+ <string name="accountLoginErrorToastMessage">Usuario o contraseña incorrectos</string>
+ <string name="accountThirdToastMessage">Las claves son diferentes</string>
+ 
+ <string name="longinFirstTextViewText">Login</string> 
+ <string name="loginFirstEditTextHint">Nombre de usuario</string> 
+ <string name="loginSecondEditTextHint">Contraseña</string> 
+ <string name="loginLoginButtonText">Entrar</string> 
+ <string name="loginCancelButtonText">Volver</string> 
+ <string name="loginNewUserButtonText">Nuevo usuario</string> 
+ <string name="loginAlertDialogTitle">Error</string> 
+ <string name="loginAlertDialogMessage">Login fallido</string> 
+ <string name="loginAlertDialogNeutralButtonText">Inténtelo de nuevo</string> 
+ 
+ <string name="initialMenuLoginTitle">Login</string> 
+ <string name="initialMenuNewUserTitle">Nuevo usuario</string>	
+ 
+ 
+ <string name="menu_ini_sesion">Iniciar sesión</string> 
+ <string name="menu_cerrar_sesion">Cerrar sesión</string>
+ 
+  <string name="listApplications">Lista de entrenamientos</string>
+
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+ 
+
+</resources>

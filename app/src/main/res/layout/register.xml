@@ -1,0 +1,269 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/accountTittleText"
+        android:background="@color/accountTittleBackgroundColor"
+        android:text="@string/accountFirstTextViewText"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/accountName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountNameEditTextHint"
+        android:textColor="@color/fieldRegisterColor"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/accountLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountLastNameEditTextHint"
+        android:textColor="@color/fieldRegisterColor"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/accountUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountFirstEditTextHint"
+        android:textColor="@color/fieldRegisterColor"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/accountMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountMailEditTextHint"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/accountPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountPhoneEditTextHint"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/accountPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountSecondEditTextHint"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/accountConfirmedPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountThirdEditTextHint"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/accountAcceptButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:background="@color/buttonLogin"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/buttonHomeColor"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="@string/accountAcceptButtonText" />
+
+        <Button
+            android:id="@+id/accountCancelButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:background="@color/buttonHome"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/buttonHomeColor"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="@string/accountCancelButtonText" />
+    </LinearLayout>
+
+    
+</LinearLayout>
+
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/textView1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/calificationTittleBackgroundColor"
+            android:gravity="center"
+            android:text="@string/registerTextViewText"
+            android:textColor="@color/white"
+            android:layout_height="40dp"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/accountName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_top_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountNameEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:drawableLeft="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/accountLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_default_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountLastNameEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:drawableLeft="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/accountUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_default_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountFirstEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:drawableLeft="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/accountMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_default_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountMailEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:drawableLeft="@drawable/mail"/>
+
+        <EditText
+            android:id="@+id/accountPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_default_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountPhoneEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:drawableLeft="@drawable/phone"/>
+
+
+        <EditText
+            android:id="@+id/accountPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_default_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountSecondEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:password="true"
+            android:drawableLeft="@drawable/pass"/>
+
+
+        <EditText
+            android:id="@+id/accountConfirmedPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bottom_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="5dp"
+            android:hint="@string/accountThirdEditTextHint"
+            android:textColorHint="#bbbbbb"
+            android:password="true"
+            android:drawableLeft="@drawable/pass"/>
+      <!--  <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:text="Sign Up"
+            style="@style/DefaultButtonText"
+            android:background="@drawable/button_default_bg"
+            />-->
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/accountAcceptButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:background="@color/buttonLogin"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/buttonHomeColor"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="@string/accountAcceptButtonText" />
+
+            <Button
+                android:id="@+id/accountCancelButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:background="@color/cancelColor"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/buttonHomeColor"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="@string/accountCancelButtonText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

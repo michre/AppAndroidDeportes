@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="screenBackgroundColor">#cecece</color>     
+	<color name="accountBackgroundColor">#ffffff</color>
+	<color name="fieldRegisterColor">#ffffff</color>
+	<color name="accountTittleBackgroundColor">#383e41</color>
+	<color name="calificationTittleBackgroundColor">#6873EA</color>
+	<color name="loginBackgroundColor">#ffffff</color>
+	<color name="accountTittleText">#33B5E5</color> 
+	<color name="buttonHome">#6873EA</color>
+	<color name="buttonLogin">#009E02</color>
+	<color name="buttonHomeColor">#FFFFFF</color>
+	<color name="cancelColor">#FF1515</color>
+	<color name="buttonRegisterColor">#CF356F</color>
+
+	
+	  <color name="black">#82ddff</color> 
+    <color name="white">#ffffff</color>
+    <color name="RED">#52ff62</color>
+	
+</resources>

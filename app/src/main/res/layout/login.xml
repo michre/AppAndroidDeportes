@@ -1,0 +1,169 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/accountTittleBackgroundColor"
+        android:gravity="center"
+        android:text="@string/accountLoginTextViewText"
+        android:textColor="@color/accountTittleText"
+        android:textSize="25sp" />
+
+     <EditText
+        android:id="@+id/accountUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountFirstLoginEditTextHint"
+        android:singleLine="true" /> 
+
+    <EditText
+        android:id="@+id/accountPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountSecondEditTextHint"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/accountAcceptButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:background="@color/buttonLogin"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/buttonHomeColor"
+            android:textSize="20sp"
+            android:text="@string/accountLoginButtonText" />
+
+        <Button
+            android:id="@+id/registerButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:background="@color/buttonRegisterColor"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/buttonHomeColor"
+            android:text="@string/accountRegisterButtonText" />
+    </LinearLayout>
+
+</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/textView1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/calificationTittleBackgroundColor"
+            android:gravity="center"
+            android:text="@string/loginTextViewText"
+            android:textColor="@color/white"
+            android:layout_height="40dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/accountUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_top_bg"
+            android:padding="10dp"
+            android:hint="Email"
+            android:textColorHint="#cccccc"
+            android:drawableLeft="@drawable/mail"/>
+        <EditText
+            android:id="@+id/accountPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bottom_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:textColorHint="#cccccc"
+            android:password="true"
+            android:drawableLeft="@drawable/pass"/>
+      <!--  <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:text="Sign In"
+            style="@style/DefaultButtonText"
+            android:background="@drawable/button_default_bg"
+            />-->
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/accountAcceptButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:background="@color/buttonLogin"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/buttonHomeColor"
+                android:textSize="20sp"
+                android:text="@string/accountLoginButtonText" />
+
+            <Button
+                android:id="@+id/registerButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:background="@color/buttonRegisterColor"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/buttonHomeColor"
+                android:text="@string/accountRegisterButtonText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
